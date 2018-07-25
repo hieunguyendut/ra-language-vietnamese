@@ -81,8 +81,8 @@ module.exports = {
         auth: {
             username: 'Tên đang nhập',
             password: 'Mật khẩu',
-            sign_in: 'Đăng nhập''',
-            sign_in_error: 'Đăng nhập không thành công, vui lòng thử lại'',
+            sign_in: 'Đăng nhập',
+            sign_in_error: 'Đăng nhập không thành công, vui lòng thử lại',
             logout: 'Đăng xuất',
         },
         notification: {

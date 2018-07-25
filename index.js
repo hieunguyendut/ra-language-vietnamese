@@ -9,7 +9,7 @@ module.exports = {
             edit: 'Sửa',
             sort: 'Sắp xếp',
             cancel: 'Hủy bỏ',
-            undo: 'Hủy bỏ',
+            undo: 'Hoàn tác',
             refresh: 'Làm mới',
             add: 'Thêm',
             remove: 'Xóa bỏ',

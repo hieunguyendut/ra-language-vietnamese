@@ -9,7 +9,7 @@ module.exports = {
             edit: 'Sửa',
             sort: 'Sắp xếp',
             cancel: 'Hủy bỏ',
-            undo: 'Hoàn tác',
+            undo: 'Hủy bỏ',
             refresh: 'Làm mới',
             add: 'Thêm',
             remove: 'Xóa bỏ',
@@ -46,9 +46,9 @@ module.exports = {
             references: {
                 all_missing: 'Không thể tìm thấy dữ liệu tham khảo.',
                 many_missing:
-                  'Ít nhất một tài liệu tham khảo liên quan không còn xuất hiện nữa.',
+                  'Ít nhất một tài liệu tham khảo liên quan không còn tồn tại .',
                 single_missing:
-                  'Tài liệu tham khảo liên quan không còn tồn tại nữa.',
+                  'Tài liệu tham khảo liên quan không còn tồn tại.',
             },
         },
         message: {
@@ -57,7 +57,7 @@ module.exports = {
             are_you_sure: 'Bạn có chắc chắn không?',
             about: 'Về',
             not_found:
-              'Bạn đã nhập một URL sai hoặc bạn đã làm theo một liên kết không đúng.',
+              'Bạn đã nhập sai URL hoặc bạn đã làm theo một liên kết không đúng.',
             loading: 'Trang web đang tải, vui lòng đợi trong giây lát.',
             invalid_form: 'Dữ liệu nhập không đúng. Vui lòng kiểm tra lại',
             delete_title: 'Xóa %{name} #%{id}',
@@ -79,18 +79,18 @@ module.exports = {
             prev: 'Trước',
         },
         auth: {
-            username: 'Tên đang nhập',
+            username: 'Tên đăng nhập',
             password: 'Mật khẩu',
             sign_in: 'Đăng nhập',
             sign_in_error: 'Đăng nhập không thành công, vui lòng thử lại',
             logout: 'Đăng xuất',
         },
         notification: {
-            updated: 'Cập nhật element thành công |||| Cập nhật thành công %{smart_count} elements',
-            created: 'Tạo element thành công',
-            deleted: 'Xóa element thành công |||| Xóa thành công %{smart_count} elements',
-            bad_item: 'Element không đúng',
-            item_doesnt_exist: 'Element không tồn tại',
+            updated: 'Cập nhật thành công |||| Cập nhật thành công %{smart_count} elements',
+            created: 'Đã tạo ',
+            deleted: 'Đã xóa |||| Xóa thành công %{smart_count} elements',
+            bad_item: 'Thành ph không đúng',
+            item_doesnt_exist: 'Thành phần không tồn tại',
             http_error: 'Lỗi giao tiếp với máy chủ',
             canceled: 'Hủy bỏ hành động',
         },

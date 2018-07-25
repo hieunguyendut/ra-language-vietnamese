@@ -57,11 +57,11 @@ module.exports = {
             are_you_sure: 'Bạn có chắc chắn không?',
             about: 'Về',
             not_found:
-              'Bạn đã nhập sai URL hoặc bạn đã làm theo một liên kết không đúng.',
-            loading: 'Trang web đang tải, vui lòng đợi trong giây lát.',
+              'Bạn đã nhập một URL sai hoặc bạn đã làm theo một liên kết không đúng.',
+            loading: 'Trang web đang tải, vui lòng đợi trong giây lát',
             invalid_form: 'Dữ liệu nhập không đúng. Vui lòng kiểm tra lại',
             delete_title: 'Xóa %{name} #%{id}',
-            delete_content: 'Bạn có chắc chắn muốn xóa vật phẩm này.',
+            delete_content: 'Bạn có chắc chắn muốn xóa vật phẩm này?',
             bulk_delete_title:
               'Xóa %{name} |||| Xóa %{smart_count} vật phẩm %{name}',
             bulk_delete_content:
@@ -70,10 +70,10 @@ module.exports = {
         navigation: {
             no_results: 'Không tìm thấy kết quả nào',
             no_more_results:
-              'Trang số %{page} đã vượt giới hạn',
+              'Trang số %{page} đã vượt giới hạn. Vui lòng trở lại trang trước.',
             page_out_of_boundaries: 'Trang số %{page} đã vượt giới hạn',
-            page_out_from_end: 'Đây là trang cuối cùng.',
-            page_out_from_begin: 'Đây là trang đầu tiên.',
+            page_out_from_end: 'Không thể đi tiếp sau trang cuối',
+            page_out_from_begin: 'Không thể trở lại trước trang 1',
             page_range_info: '%{offsetBegin}-%{offsetEnd} của %{total}',
             next: 'Tiếp',
             prev: 'Trước',
@@ -86,18 +86,18 @@ module.exports = {
             logout: 'Đăng xuất',
         },
         notification: {
-            updated: 'Cập nhật thành công |||| Cập nhật thành công %{smart_count} elements',
-            created: 'Đã tạo ',
-            deleted: 'Đã xóa |||| Xóa thành công %{smart_count} elements',
-            bad_item: 'Thành ph không đúng',
+            updated: 'Cập nhật thành công |||| Cập nhật thành công %{smart_count} thành phần',
+            created: 'Đã tạo thành công',
+            deleted: 'Đã xóa thành công |||| Xóa thành công %{smart_count} thành phần',
+            bad_item: 'Thành phần không đúng',
             item_doesnt_exist: 'Thành phần không tồn tại',
             http_error: 'Lỗi giao tiếp với máy chủ',
             canceled: 'Hủy bỏ hành động',
         },
         validation: {
             required: 'Bắt buộc',
-            minLength: 'Phải Ít nhất %{min} ký tự.',
-            maxLength: 'Phải nhỏ hơn hoặc bằng %{max} ký tự.',
+            minLength: 'Phải Ít nhất %{min} ký tự',
+            maxLength: 'Phải nhỏ hơn hoặc bằng %{max} ký tự',
             minValue: 'Phải lớn hơn hoặc bằng %{min}',
             maxValue: 'Phải nhỏ hơn hoặc bằng %{max}',
             number: 'Phải là số',

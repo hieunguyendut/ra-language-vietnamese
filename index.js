@@ -7,7 +7,9 @@ module.exports = {
             save: 'Lưu',
             create: 'Tạo mới',
             edit: 'Sửa',
+            export: 'Xuất',
             sort: 'Sắp xếp',
+            search: 'Tìm kiếm',
             cancel: 'Hủy bỏ',
             undo: 'Hoàn tác',
             refresh: 'Làm mới',
@@ -17,6 +19,9 @@ module.exports = {
             remove_filter: 'Bỏ bộ lọc',
             back: 'Trở về',
             bulk_actions: '%{smart_count} đã chọn',
+            clear_input_value: 'Xóa giá trị',
+            clone: 'Nhân bản',
+            confirm: 'Xác nhận',
         },
         boolean: {
             true: 'Có',
@@ -26,6 +31,7 @@ module.exports = {
             list: 'Danh sách %{name}',
             edit: '%{name} #%{id}',
             show: '%{name} #%{id}',
+            error: 'Đã xảy ra lỗi',
             create: 'Tạo %{name}',
             dashboard: 'Bảng điều khiển',
             not_found: 'Không tìm thấy',
@@ -46,7 +52,7 @@ module.exports = {
             references: {
                 all_missing: 'Không thể tìm thấy dữ liệu tham khảo.',
                 many_missing:
-                  'Ít nhất một tài liệu tham khảo liên quan không còn tồn tại .',
+                  'Ít nhất một tài liệu tham khảo liên quan không còn tồn tại.',
                 single_missing:
                   'Tài liệu tham khảo liên quan không còn tồn tại.',
             },
@@ -62,6 +68,8 @@ module.exports = {
             invalid_form: 'Dữ liệu nhập không đúng. Vui lòng kiểm tra lại',
             delete_title: 'Xóa %{name} #%{id}',
             delete_content: 'Bạn có chắc chắn muốn xóa vật phẩm này?',
+            details: 'Chi tiết',
+            error: 'Đã xảy ra lỗi ở phía người dùng và yêu cầu của bạn không thể hoàn thành.',
             bulk_delete_title:
               'Xóa %{name} |||| Xóa %{smart_count} vật phẩm %{name}',
             bulk_delete_content:
@@ -74,12 +82,14 @@ module.exports = {
             page_out_of_boundaries: 'Trang số %{page} đã vượt giới hạn',
             page_out_from_end: 'Không thể đi tiếp sau trang cuối',
             page_out_from_begin: 'Không thể trở lại trước trang 1',
+            page_rows_per_page: 'Số hàng trên mỗi trang:',
             page_range_info: '%{offsetBegin}-%{offsetEnd} của %{total}',
             next: 'Tiếp',
             prev: 'Trước',
         },
         auth: {
             username: 'Tên đăng nhập',
+            user_menu: 'Hồ sơ',
             password: 'Mật khẩu',
             sign_in: 'Đăng nhập',
             sign_in_error: 'Đăng nhập không thành công, vui lòng thử lại',
@@ -93,6 +103,8 @@ module.exports = {
             item_doesnt_exist: 'Thành phần không tồn tại',
             http_error: 'Lỗi giao tiếp với máy chủ',
             canceled: 'Hủy bỏ hành động',
+            data_provider_error: 'Lỗi dataProvider. Kiểm tra console để biết chi tiết.',
+            logged_out: 'Phiên làm việc của bạn đã kết thúc, vui lòng kết nối lại.'
         },
         validation: {
             required: 'Bắt buộc',

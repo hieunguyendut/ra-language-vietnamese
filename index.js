@@ -1,3 +1,5 @@
+
+
 module.exports = {
     ra: {
         action: {
@@ -22,8 +24,11 @@ module.exports = {
             show: 'Hiển thị',
             sort: 'Sắp xếp',
             undo: 'Hoàn tác',
+            unselect: 'Huỷ chọn',
             expand: 'Mở rộng',
             close: 'Đóng',
+            open_menu: 'Mở menu',
+            close_menu: 'Đóng menu',
         },
         boolean: {
             true: 'Có',
@@ -84,6 +89,8 @@ module.exports = {
             not_found:
                 'Bạn đã nhập một URL sai hoặc bạn đã làm theo một liên kết không đúng.',
             yes: 'Có',
+            unsaved_changes:
+                "Một vài thay đổi của bạn chưa được lưu. Bạn có chắc là muốn bỏ qua chúng?",
         },
         navigation: {
             no_results: 'Không tìm thấy kết quả nào',

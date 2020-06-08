@@ -1,6 +1,6 @@
 {
   "name": "ra-language-vietnamese",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Vietnamese translations for react-admin, the frontend framework for building admin applications on top of REST services",
   "main": "index.js",
   "scripts": {
